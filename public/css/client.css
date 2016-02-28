@@ -1,0 +1,15 @@
+html { 
+    background: url(/images/radio_with_margin.png) no-repeat top center fixed; 
+}
+
+body {
+    text-align: center;
+}
+
+#visualizer {
+    width: 745px;
+    height: 200px;
+    position: relative;
+    top: 256px;
+    left: 3px;
+}

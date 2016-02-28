@@ -1,0 +1,41 @@
+html { 
+    background: url(/images/microphone.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#casting-status {
+    color: lightgray;
+    margin-top: 50px;
+    margin-left: 54px;
+    font-size: 56px;
+}
+
+#visualizer {
+    width: 300px;
+    height: 80px;
+    margin-top: -30px;
+    margin-left: 50px;
+
+    background-color: black;
+}
+
+#record-button {
+    background: url(/images/record.png);
+    width: 128px;
+    height: 128px;
+    border: 0;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+#record-button:hover {
+    cursor: pointer;
+}
+
+#record-button:focus {
+    outline: 0;
+}
